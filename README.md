@@ -44,6 +44,19 @@ define('js_url', base_url . '/assets/js');
 define('img_url', base_url . '/assets/img');
 ````
 
+
+if you are using `xampp` under the folder `htdocs/yourprojectfolder` then edit `system/core.php` 
+  and uncomment the below line
+  
+  ````
+  //$actual_link = $actual_link . "/" . $req;
+  ````
+  
+  to
+  
+  `$actual_link = $actual_link . "/" . $req;`
+  
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
