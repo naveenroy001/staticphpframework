@@ -1,0 +1,6 @@
+user-agent:*
+Disallow:/libs/
+Disallow:/config/
+Disallow:/controllers/
+Disallow:/models/
+Disallow:/public/
